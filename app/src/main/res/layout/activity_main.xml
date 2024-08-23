@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Calcula El Valor Nutricional De Tu Ensalada"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbLechuga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Lechuga (5cal)" />
+
+    <CheckBox
+        android:id="@+id/cbTomate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomate (20cal)" />
+
+    <CheckBox
+        android:id="@+id/cbZanahoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zanahoria (25cal)" />
+
+    <CheckBox
+        android:id="@+id/cbPepino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pepino (10cal)" />
+
+    <CheckBox
+        android:id="@+id/cbAderezo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aderezo (50cal)" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Calcular Calorias" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar Seleccion" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calorias Totales: 0"
+        android:textSize="20sp" />
+
+</LinearLayout>
